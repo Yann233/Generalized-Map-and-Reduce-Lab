@@ -14,6 +14,7 @@ end
 #Your implementation should expect a source array and optionally a starting value.
 #All the tests will pass an Array and sometimes, a starting point.
 def reduce(source_array,starting_point=nil)#这样就能使它optional
+#build a conidtion to see if we do have starting_point or not
   if starting_point
     sum=starting_point
     i=0
